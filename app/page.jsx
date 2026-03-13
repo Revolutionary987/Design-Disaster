@@ -138,6 +138,26 @@ const PRODUCTS = [
   { id: 83, name: "Dog Chew Treats",         price: 5.50,  img:'https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=400&fit=crop&q=80', rating:4.7, distance:1.8, category:"pet",       unit:"100 g" },
   { id: 84, name: "Pet Shampoo Aloe",        price: 8.99,  img:'https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=400&h=400&fit=crop&q=80', rating:4.8, distance:1.5, category:"pet",       unit:"500 ml" },
   { id: 85, name: "Bouncy Ball Toy",         price: 2.20,  img:'https://images.unsplash.com/photo-1583511655826-05700d52f4d9?w=400&h=400&fit=crop&q=80', rating:4.6, distance:0.9, category:"pet",       unit:"1 pc" },
+  // MORE PERSONAL CARE
+  { id: 86, name: "Gentle Facewash",         price: 6.99,  img:'https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=400&h=400&fit=crop&q=80', rating:4.7, distance:1.2, category:"personal",  unit:"150 ml" },
+  { id: 87, name: "SPF 50 Sunscreen",        price: 12.50, img:'https://images.unsplash.com/photo-1526947425960-945c6e72858f?w=400&h=400&fit=crop&q=80', rating:4.8, distance:1.5, category:"personal",  unit:"50 ml" },
+  { id: 88, name: "Body Lotion Cocoa",       price: 8.99,  img:'https://images.unsplash.com/photo-1552046122-03184de85e08?w=400&h=400&fit=crop&q=80', rating:4.6, distance:1.0, category:"personal",  unit:"400 ml" },
+  { id: 89, name: "Men's Shaving Gel",       price: 5.20,  img:'https://images.unsplash.com/photo-1590611936763-ebdc93dec231?w=400&h=400&fit=crop&q=80', rating:4.5, distance:0.8, category:"personal",  unit:"200 ml" },
+  // MORE MUNCHIES
+  { id: 90, name: "Chocolate Chip Cookies",  price: 3.99,  img:'https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=400&h=400&fit=crop&q=80', rating:4.9, distance:0.5, category:"munchies",  unit:"200 g" },
+  { id: 91, name: "Beef Jerky Original",     price: 7.50,  img:'https://images.unsplash.com/photo-1585121401392-71f850080360?w=400&h=400&fit=crop&q=80', rating:4.7, distance:1.3, category:"munchies",  unit:"50 g" },
+  { id: 92, name: "Sea Salt Almonds",        price: 9.99,  img:'https://images.unsplash.com/photo-1508061253335-961fa0930773?w=400&h=400&fit=crop&q=80', rating:4.8, distance:0.9, category:"munchies",  unit:"150 g" },
+  { id: 93, name: "Roasted Makhana",         price: 2.99,  img:'https://images.unsplash.com/photo-1589118949245-7d38baf380d6?w=400&h=400&fit=crop&q=80', rating:4.6, distance:0.6, category:"munchies",  unit:"50 g" },
+  // HEALTHY & ORGANIC
+  { id: 94, name: "Whey Protein Vanilla",    price: 35.00, img:'https://images.unsplash.com/photo-1593095191026-634cc1d82136?w=400&h=400&fit=crop&q=80', rating:4.9, distance:2.0, category:"personal",  unit:"1 kg" },
+  { id: 95, name: "Multivitamin Gummies",    price: 18.99, img:'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&h=400&fit=crop&q=80', rating:4.8, distance:1.5, category:"personal",  unit:"60 pcs" },
+  { id: 96, name: "Organic Chia Seeds",      price: 6.50,  img:'https://images.unsplash.com/photo-1585409600261-0ac7a615d5f0?w=400&h=400&fit=crop&q=80', rating:4.7, distance:1.0, isOrganic:true, category:"pantry", unit:"250 g" },
+  { id: 97, name: "Cold Pressed Apple Sync", price: 4.80,  img:'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=400&fit=crop&q=80', rating:4.8, distance:0.5, category:"drinks",    unit:"250 ml" },
+  // PANTRY STAPLES
+  { id: 98, name: "Spaghetti Pasta",         price: 2.49,  img:'https://images.unsplash.com/photo-1551462147-37885abb3e4a?w=400&h=400&fit=crop&q=80', rating:4.7, distance:0.9, category:"pantry",    unit:"500 g" },
+  { id: 99, name: "Tomato Basil Sauce",      price: 5.20,  img:'https://images.unsplash.com/photo-1472476443507-c7a5948772fc?w=400&h=400&fit=crop&q=80', rating:4.8, distance:0.7, category:"pantry",    unit:"400 g" },
+  { id: 100, name: "Himalayan Pink Salt",    price: 3.50,  img:'https://images.unsplash.com/photo-1626509653293-6056ae3c316d?w=400&h=400&fit=crop&q=80', rating:4.9, distance:1.1, category:"pantry",    unit:"500 g" },
+  { id: 101, name: "Roasted Garlic Oil",     price: 14.99, img:'https://images.unsplash.com/photo-1474979150399-4d3d9a7ec44d?w=400&h=400&fit=crop&q=80', rating:4.8, distance:0.8, isFlashDeal:true, originalPrice:19.99, category:"pantry", unit:"250 ml" },
 ];
 
 const ALL_WORDS = Array.from(new Set(
