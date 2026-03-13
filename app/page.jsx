@@ -423,7 +423,7 @@ export default function ZeptoBlinkit() {
                   {searchResults.length > 0 && searchResults.map(item => (
                     <button key={item.id} className="w-full flex items-center gap-3 p-3 hover:bg-neutral-800 transition-colors text-left border-b border-neutral-800 last:border-0"
                       onMouseDown={() => { handleSearch(item.name); setSearchQuery(""); addToCart(item); }}>
-                      <div className="w-10 h-10 relative bg-neutral-800 rounded overflow-hidden flex-shrink-0"><Image src={item.img} alt={item.name} fill className="object-cover" sizes="40px" /></div>
+                      <div className="w-10 h-10 relative bg-neutral-800 rounded overflow-hidden flex-shrink-0"><img src={item.img} alt={item.name} className="w-full h-full object-cover" /></div>
                       <div className="flex-1"><p className="text-sm font-bold text-white">{item.name}</p><p className="text-xs text-neutral-500">{item.unit} · {item.rating} stars</p></div>
                       <span className="text-red-400 font-black text-sm">${item.price.toFixed(2)}</span>
                     </button>
@@ -918,7 +918,7 @@ function ProductCard({ product, qty, onAdd, onDecrement, cardBg, cardText, dark 
       className={`${cardBg} border-2 rounded-xl p-3 group relative hover:shadow-[0_20px_40px_rgba(0,0,0,0.4)] hover:border-red-600/50 transition-all flex flex-col h-full`}
     >
       <div className="w-full aspect-square relative bg-neutral-100 rounded-lg mb-3 overflow-hidden">
-        <Image src={product.img} alt={product.name} fill sizes="220px" className="object-cover group-hover:scale-110 transition-transform duration-700 ease-out" />
+        <img src={product.img} alt={product.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out" />
         <div className="absolute top-2 left-2 flex flex-col gap-1 z-10">
           {product.isOrganic && <span className="flex items-center gap-0.5 bg-green-600 text-white px-1.5 py-0.5 text-[9px] font-black uppercase rounded shadow-lg"><Leaf size={7} />Organic</span>}
           {product.isFlashDeal && <span className="flex items-center gap-0.5 bg-red-600 text-white px-1.5 py-0.5 text-[9px] font-black uppercase rounded animate-pulse shadow-lg"><Flame size={7} />Deal</span>}

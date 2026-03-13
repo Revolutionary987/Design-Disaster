@@ -383,7 +383,7 @@ export default function AIAgent({ products, onAddBundle }) {
                         {msg.bundle.products.map(p => (
                           <div key={p.id} className="flex items-center gap-2 p-2">
                             <div className="w-8 h-8 relative rounded overflow-hidden flex-shrink-0 bg-neutral-800">
-                              <Image src={p.img} alt={p.name} fill className="object-cover" sizes="32px" />
+                              <img src={p.img} alt={p.name} className="w-full h-full object-cover" />
                             </div>
                             <div className="flex-1 min-w-0">
                               <p className="text-xs font-bold text-white truncate">{p.name}</p>
