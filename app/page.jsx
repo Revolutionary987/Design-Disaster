@@ -349,9 +349,9 @@ export default function ZeptoBlinkit() {
       <header className={`sticky top-0 z-50 ${dark ? 'bg-black text-white' : 'bg-white text-neutral-900'} shadow-[0_4px_30px_rgba(0,0,0,0.1)] border-b-4 border-red-600`}>
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center gap-3">
           <Link href="/" className="shrink-0 flex items-center gap-2 mr-1 hover:opacity-80 transition-opacity">
-            <div className="w-9 h-9 bg-red-600 rounded-lg flex items-center justify-center font-black text-white text-lg">D</div>
+            <div className="w-9 h-9 bg-red-600 rounded-lg flex items-center justify-center font-black text-white text-lg">T</div>
             <div className="hidden sm:block leading-none">
-              <p className={`text-sm font-black uppercase tracking-tighter ${dark ? 'text-white' : 'text-neutral-900'}`}>Dark</p>
+              <p className={`text-sm font-black uppercase tracking-tighter ${dark ? 'text-white' : 'text-neutral-900'}`}>Tomato</p>
               <p className="text-sm font-black uppercase tracking-tighter text-red-500">Commerce</p>
             </div>
           </Link>
