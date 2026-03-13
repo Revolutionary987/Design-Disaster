@@ -851,8 +851,8 @@ export default function ZeptoBlinkit() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 text-left">
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-red-600 rounded-lg flex items-center justify-center font-black text-white text-sm">D</div>
-              <h3 className="text-xl font-black uppercase tracking-tighter text-white">Dark Commerce</h3>
+              <div className="w-8 h-8 bg-red-600 rounded-lg flex items-center justify-center font-black text-white text-sm">T</div>
+              <h3 className="text-xl font-black uppercase tracking-tighter text-white">Tomato</h3>
             </div>
             <p className="text-[11px] font-bold leading-relaxed text-neutral-500 uppercase tracking-widest">
               The world's fastest AI-powered quick commerce platform. Delivering magic in 10 minutes.
@@ -900,8 +900,7 @@ export default function ZeptoBlinkit() {
           </div>
         </div>
         <div className="max-w-7xl mx-auto border-t border-neutral-900 mt-16 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] font-black uppercase tracking-[0.3em] text-neutral-700">
-          <p>© 2026 Dark Commerce. All Rights Reserved.</p>
-          <p>Designed with ❤️ by Agentic AI</p>
+          <p>© 2026 Tomato. All Rights Reserved.</p>
         </div>
       </footer>
     </div>

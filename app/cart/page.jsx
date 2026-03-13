@@ -52,7 +52,7 @@ export default function CartPage() {
           <Link href="/" className="flex items-center gap-2 hover:text-red-400 transition-colors">
             <ArrowLeft size={20} />
             <div className="w-7 h-7 bg-red-600 rounded-lg flex items-center justify-center font-black text-sm">D</div>
-            <span className="font-black text-sm uppercase hidden sm:block">Dark Commerce</span>
+            <span className="font-black text-sm uppercase hidden sm:block">Tomato</span>
           </Link>
           <div className="flex-1 flex items-center justify-center">
             <h1 className="font-black uppercase tracking-tighter text-lg flex items-center gap-2">

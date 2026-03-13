@@ -41,7 +41,7 @@ export default function LoginPage() {
           <div className="w-16 h-16 bg-red-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
             <ShieldCheck size={32} className="text-white" />
           </div>
-          <h1 className="text-3xl font-black uppercase tracking-tighter text-white">Dark Commerce</h1>
+          <h1 className="text-3xl font-black uppercase tracking-tighter text-white">Tomato</h1>
           <p className="text-neutral-400 text-sm mt-1">Sign in to your account</p>
         </div>
 
